@@ -1,0 +1,54 @@
+.parallax {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 300px;
+    perspective: 300px;
+    z-index: 1;
+  }
+
+  .parallax__group {
+    position: relative;
+    height: 100vh;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+
+  .parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .parallax__layer--fore {
+    -webkit-transform: translateZ(90px) scale(0.7);
+    transform: translateZ(50px) scale(0.7);
+    z-index: 1;
+  }
+
+  .parallax__layer--fore2 {
+    -webkit-transform: translateZ(90px) scale(0.7);
+    transform: translateZ(100px) scale(0.7);
+    z-index: 2;
+  }
+
+  .title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height : 100%;
+   }
+
+  #group3 {
+    background: url("../img/WallpaperHomePage.jpg") no-repeat center bottom; /* slide over group 2 and 4 */
+    background-size: cover;
+  }
+
+  #group4 {
+    background: url("../img/Wallpaper3.jpg") no-repeat center bottom; /* slide over group 2 and 4 */
+    background-size: cover;
+  }
