@@ -1,3 +1,7 @@
+
+/* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+
 .parallax {
     height: 100vh;
     overflow-x: hidden;
@@ -52,3 +56,6 @@
     background: url("../img/Wallpaper3.jpg") no-repeat center bottom; /* slide over group 2 and 4 */
     background-size: cover;
   }
+
+
+}
