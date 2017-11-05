@@ -1,9 +1,9 @@
 			
 		/* Large devices (desktops, 992px and up) */
-		@media (min-width: 992px) {
+		@media (min-width: 1025px) {
 
 			body {
-				font-family: "Avenir";
+				font-family: "Avenir", "Sans Serif";
 				font-size: 1vw;
 				margin: 0;
 			}

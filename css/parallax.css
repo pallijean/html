@@ -1,6 +1,6 @@
 
 /* Large devices (desktops, 992px and up) */
-    @media (min-width: 992px) {
+    @media (min-width: 1025px) {
 
 .parallax {
     height: 100vh;
@@ -11,7 +11,14 @@
     z-index: 1;
   }
 
-  .parallax__group {
+  .parallax__group1 {
+    position: relative;
+    height: 100vh;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+
+  .parallax__group2 {
     position: relative;
     height: 100vh;
     -webkit-transform-style: preserve-3d;
